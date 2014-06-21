@@ -1,0 +1,534 @@
+html 
+
+body			{font-family: Verdana; font-size:10pt; color:#000000; line-height: 1.25; margin:15px}
+bulleted list 	{font-family: Verdana; font-size:10pt; color:#000000; list-style-type: disc }
+p				{ font-family: arial,sans-serif;  ; font-size: 12px; color: #000066}
+h3  			{font-family: verdana; text-align: left; line-height: 125%; font-size: 14pt; color: #000000; vertical-align: middle; font-weight: Bold; margin-right:12pt}
+.newsfirstpara    { text-align: left; line-height: 135%; font-size: 12px; color: #000000; vertical-align:top; font-weight:bold}
+.newsbody    {font-family: Verdana; text-align: justify; line-height: 145%; font-size: 10pt; FONT-WEIGHT: normal; color: #000000; vertical-align:top}
+.faqbody    {font-family: Verdana; text-align: left; line-height: 125%; font-size: 10pt; FONT-WEIGHT: normal; color: #000000; vertical-align:top}
+.newsbold    {font-family: Verdana; text-align: justify; line-height: 145%; font-size: 10pt; FONT-WEIGHT: bold; color: #000000; vertical-align:top}
+blockquote#letter {
+	font-family: arial;
+	font-size: 9pt;
+	font-style: normal;
+	line-height: 120%;
+	font-weight: normal;
+	color: black;
+}
+.date	{ FONT-WEIGHT: normal; text-align:right; line-height: 150%; FONT-SIZE: 11px; COLOR: black; border-bottom:#000000 1px solid}
+
+.bwp1	{font-family: verdana; text-align: left; line-height: 125%; font-size: 20pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bwp2	{font-family: verdana; text-align: left; line-height: 125%; font-size: 18pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bwp3	{font-family: verdana; text-align: left; line-height: 125%; font-size: 16pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bwp4	{font-family: verdana; text-align: left; line-height: 125%; font-size: 14pt; color: #000000; vertical-align: middle; font-weight: Bold; margin-right:12pt}
+.bwp5	{font-family: verdana; text-align: left; line-height: 125%; font-size: 12pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bwp6	{font-family: verdana; text-align: left; line-height: 125%; font-size: 11pt; color: #000000; vertical-align: middle; font-weight: Bold}
+
+.asublist	{
+	font-family:arial;
+	text-align:left;
+	font-size:10pt;
+	color: #000000;
+	vertical-align:top;
+	font-weight: normal;
+}
+.quotie		{ line-height: 110%; font-size: 14px; font-style:italic; color: #000000}
+.speechbody {font-family:Garamond; text-align:justify; line-height: 135%; font-size:12pt; FONT-WEIGHT:normal; color: #000000; vertical-align:top}
+.speechquote {font-family:Garamond; text-align:justify; line-height: 135%; font-size:11pt; FONT-WEIGHT:normal; color: #000000; vertical-align:top; margin-left:20pt }
+.newsquote {font-family:Verdana; text-align:justify; line-height: 135%; font-size:9pt; FONT-WEIGHT:normal; color: #000000; vertical-align:top}
+.articlebody {font-family:Garamond; text-align:justify; line-height: 135%; font-size:12pt; FONT-WEIGHT:normal; color: #000000; vertical-align:top}
+.arttitle	{font-family:arial; text-align:left; font-size:14pt; font-weight:bold; color: #000000; vertical-align:top}
+.artsub		{font-family:verdana; text-align:left; font-size:10pt; font-weight:bold; color: #000000; vertical-align:top}
+.artlist	{font-family:verdana; text-align:left; font-size:9pt; font-weight:normal; color: #000000; vertical-align:top}
+.byline		{font-family:verdana; text-align:left; font-size:10pt; font-weight:bold; color: #000000; vertical-align:top}
+.tops		{font-family:verdana; text-align:center; font-size:9px; font-weight:bold; color: #000000; vertical-align:top; line-height:135%}
+.topsw		{font-family:verdana; text-align:center; font-size:10pt; font-weight:bold; color: #ffffff; vertical-align:top; line-height:135%}
+.tops2		{font-family:verdana; text-align:center; font-size:11px; font-weight:bold; color: #000000; vertical-align:top; line-height:135%}
+.tops3		{font-family:verdana; text-align:center; font-size:9px; color: #000000; vertical-align:top; line-height:135%}
+.tbc 		{font-family:verdana; text-align:left; FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff}
+.ubc 		{PADDING-LEFT: 7px; BACKGROUND-IMAGE: url(http://www.keithweeks.org.uk/images/arroww.gif); PADDING-BOTTOM: 3px; BACKGROUND-REPEAT: no-repeat}
+
+td				{ font-family: arial,sans-serif;  font-size: 11px; color: #FFFFFF}
+ol				{ font-family: arial,sans-serif;  font-size: 11px; color: #38586B}
+li				{ font-family: verdana;  font-size: 12pt; color: #000000}
+
+a:visited    { font-family: arial,sans-serif; color: #00FF00; font-size: 8px; text-decoration:none}
+a:link       { font-family: arial,sans-serif; color: #0000FF; font-size: 8px; text-decoration:none}
+a:hover      { font-family: arial,sans-serif; color: #FF0000; font-size: 8px; text-decoration:underline }
+a:active   	 { font-family: arial,sans-serif; color: #0000FF; font-size: 8px; text-decoration:none}
+
+a:visited.listy {font-family:verdana; text-align:left; text-style: italic; font-size:10pt; color: #000000; vertical-align:top; text-decoration:none}
+a:hover.listy {font-family:verdana; text-align:left; text-style: italic; font-size:10pt; color: #cccccc; vertical-align:top; text-decoration:underline}
+a:active.listy {font-family:verdana; text-align:left; text-style: italic; font-size:10pt; color: #000000; vertical-align:top; text-decoration:none} 
+a:link.listy {font-family:verdana; text-align:left; text-style: italic; font-size:10pt; color: #000000; vertical-align:top; text-decoration:none}
+
+
+a:visited.title { line-height="1.25"; font-family: verdana; FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000099; text-decoration:none}
+a:hover.title { line-height="1.25";  font-family: verdana; FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #3399ff; text-decoration:underline }
+a:active.title { line-height="1.25"; font-family: verdana; FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000099 } 
+a:link.title { line-height="1.25"; font-family: verdana; FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000099; text-decoration:none}
+
+a:link.button { line-height="1.75"; FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; COLOR: #FFFFFF; text-decoration:none}
+a:visited.button {	line-height="1.75"; FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; COLOR: #FFFFFF; text-decoration:none}
+a:hover.button { FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; line-height="1.75"; COLOR: #669999; text-decoration:underline }
+a:active.button { line-height="1.75"; FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; COLOR: #FFFFFF; text-decoration:none}
+
+a:link.yelbutton { line-height="1.75"; FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; COLOR: #FFFF00; text-decoration:none}
+a:visited.yelbutton {	line-height="1.75"; FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; COLOR: #FFFF00; text-decoration:none}
+a:hover.yelbutton { FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; line-height="1.75"; COLOR: #669999; text-decoration:underline }
+a:active.yelbutton { line-height="1.75"; FONT-WEIGHT: bold; FONT-SIZE: 11.5pt; COLOR: #FFFF00; text-decoration:none}
+
+a:visited.tsc{	font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 11pt; COLOR: #000000; text-decoration:none}
+a:hover.tsc { font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 11pt; COLOR: #669999; text-decoration:underline }
+a:active.tsc { font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 11pt; COLOR: #000000; text-decoration:none }
+a:link.tsc	{ font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 11pt; COLOR: #000000; text-decoration:none}
+
+a:visited.tsl{	font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 9pt; COLOR: #000000; text-decoration:none}
+a:hover.tsl { font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 9pt; COLOR: #669999; text-decoration:underline }
+a:active.tsl { font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 9pt; COLOR: #000000; text-decoration:none }
+a:link.tsl	{ font-family: Verdana; FONT-WEIGHT: bold; line-height="1.5"; FONT-SIZE: 9pt; COLOR: #000000; text-decoration:none}
+
+a:visited.tsp{	font-family: Verdana; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000; text-decoration:none}
+a:hover.tsp { font-family: Verdana; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #669999; text-decoration:underline }
+a:active.tsp { font-family: Verdana; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000; text-decoration:none }
+a:link.tsp	{ font-family: Verdana; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000; text-decoration:none}
+
+a:link.tst	{ font-family: Verdana; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #0000ff; text-decoration:none }
+a:visited.tst{	font-family: Verdana; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #00ff00; text-decoration:none }
+a:hover.tst { font-family: Verdana; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ff0000; text-decoration:underline }
+a:active.tst { font-family: Verdana; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #0000ff; text-decoration:none }
+
+a:visited.tsm{ font-family: Verdana; line-height="1"; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000099; text-decoration:none}
+a:hover.tsm { font-family: Verdana; line-height="1"; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #3399ff; text-decoration:underline }
+a:active.tsm { font-family: Verdana; line-height="1"; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000099 }
+a:link.tsm	{ font-family: Verdana; line-height="1"; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000099; text-decoration:none}a:link.nav { font-family: arial,sans-serif;  ; FONT-WEIGHT: bold; line-height: 110%; FONT-SIZE: 19px; COLOR: #000066; text-decoration:none}
+
+a:visited.tsx{ font-family: Verdana; line-height="1.75"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000099; text-decoration:none}
+a:hover.tsx { font-family: Verdana; line-height="1.75"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #3399ff; text-decoration:underline }
+a:active.tsx { font-family: Verdana; line-height="1.75"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000099 }
+a:link.tsx	{ font-family: Verdana; line-height="1.75"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000099; text-decoration:none}a:link.nav { font-family: arial,sans-serif;  ; FONT-WEIGHT: bold; line-height: 110%; FONT-SIZE: 19px; COLOR: #000066; text-decoration:none}
+
+a:visited.tsb{ font-family: Verdana; line-height="1.25"; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000099; text-decoration:none}
+a:hover.tsb { font-family: Verdana; line-height="1.25"; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #3399ff; text-decoration:underline }
+a:active.tsb { font-family: Verdana; line-height="1.25"; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000099 }
+a:link.tsb	{ font-family: Verdana; line-height="1.25"; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000099; text-decoration:none}
+
+a:visited.top{ line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000099; text-decoration:none}
+a:hover.top { line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #3399ff; text-decoration:underline }
+a:active.top { line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000099 }
+a:link.top	{ line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000099; text-decoration:none}
+
+a:visited.topw{	line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #ffffff; text-decoration:none}
+a:hover.topw { line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #ffffff; text-decoration:underline }
+a:active.topw { line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #ffffff }
+a:link.topw	{ line-height="1.5"; FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #ffffff; text-decoration:none}
+
+a:visited.quo { font-family:arial; text-align:justify; line-height: 135%; font-size:10pt; FONT-WEIGHT:normal; color: #000099; vertical-align:top; text-decoration:none }
+a:hover.quo  { font-family:arial; text-align:justify; line-height: 135%; font-size:10pt; FONT-WEIGHT:normal; color: #3399ff; vertical-align:top; text-decoration:underline }
+a:active.quo  { font-family:arial; text-align:justify; line-height: 135%; font-size:10pt; FONT-WEIGHT:normal; color: #000099; vertical-align:top; text-decoration:none }
+a:link.quo	 { font-family:arial; text-align:justify; line-height: 135%; font-size:10pt; FONT-WEIGHT:normal; color: #000099; vertical-align:top; text-decoration:none }
+
+a:link.sub {
+	font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #990000
+}
+a:visited.sub {
+	font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cc6666
+}
+a:hover.sub {
+	font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000066
+}
+a:active.sub{
+	font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #990000
+}
+a:link.10r {
+	font-family: Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #0000FF
+}
+a:visited.10r {
+	font-family: Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #00FF00
+}
+a:hover.10r {
+	font-family: Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #FF0000
+}
+a:active.10r {
+	font-family: Arial,Helvetica,sans-serif,"MS sans serif"; FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #0000FF
+	}
+a:link.click {
+	font-family: Courier New; FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #0000FF; display:none
+}
+a:visited.click {
+	font-family: Courier New; FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #FF0000; display:none
+
+}
+a:hover.click {
+	font-family: Courier New; FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #0000FF; TEXT-DECORATION:underline; display:none
+
+}
+a:active.click {
+	font-family: Courier New; FONT-WEIGHT: normal; FONT-SIZE: 12pt; COLOR: #0000FF; display:none
+}
+.letter1		{ font-family: Times New Roman; line-height="1.25"; FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #000055; text-decoration:none}
+.letter2		{ font-family: Times New Roman; line-height="1.25"; FONT-WEIGHT: Normal; FONT-SIZE: 9pt; COLOR: #000055; text-decoration:none}
+.letter3		{ font-family: Times New Roman; line-height="1.25"; FONT-WEIGHT: Normal; FONT-SIZE: 14pt; COLOR: #000055; text-decoration:none}
+.letter4		{ font-family: Times New Roman; line-height="1.25"; FONT-WEIGHT: Normal; FONT-SIZE: 12pt; COLOR: #000055; text-decoration:none}
+.letter5		{ font-family: Courier New; line-height="1.25"; FONT-WEIGHT: Bold; FONT-SIZE: 12pt; COLOR: #000000; text-decoration:none}
+.letter6		{ font-family: Courier New; line-height="1.25"; FONT-WEIGHT: Bold; FONT-SIZE: 12pt; COLOR: #000000; text-decoration:none; display:none} 
+.ntsb		{ font-family: Verdana; line-height="1.25"; FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000099; text-decoration:none}
+.whiteword	{text-align: left; line-height: 125%; font-size: 24px; color: #FFFFFF; vertical-align: middle; font-weight: Bold}
+.navdead	{text-align: center; font-size: 19px; line-height: 110%; color: #C8C8C8; vertical-align: middle; font-weight: Bold}
+.header    { text-align: left; font-size: 18px; color: #000000; vertical-align:middle; font-weight: Bold }}
+.newsflash	{ font-weight: Bold; font-size: 18px; color: #000066 }
+.inothernews	{font-weight: Bold; line-height: 135%; font-size: 12px; color: #000066 }
+.othernews	{ font-weight: normal; line-height: 135%; font-size: 11px; color: #000066 }
+.headline	{ font-weight: Bold; font-size: 16px; color: #000066; background-colour: #CACAFF}}
+.rbjob		{ font-weight: Bold; line-height: 100%; font-size: 20px; color: #000066 }
+.nymp		{ font-weight: Bold; line-height: 120%; font-size: 14px; color: #000066 }  
+.nympbody	{ line-height: 120%; font-size: 12px; color: #000066; line-height: 1.5; margin-left: 8"}  
+.nympbold	{ font-weight: Bold; line-height: 120%; font-size: 14px; color: #000066 }  
+.quotie2	{ line height: 110%; font-size: 11px; font-weight: normal; color: #000066; margin-left: 0"}
+.10reg		{ FONT-WEIGHT: normal; line-height: 110%; FONT-SIZE: 10px; COLOR: #000066}
+.11bold		{ FONT-WEIGHT: bold; line-height: 110%; FONT-SIZE: 11px; COLOR: #000066}
+.12reg		{ FONT-WEIGHT: normal; line-height: 1.5; FONT-SIZE: 12px; COLOR: #000000}
+.liltext	{
+	font-family: Verdana, Arial, Helvetica, sans-serif, "Gill Sans MT";
+	FONT-WEIGHT: normal;
+	line-height: 150%;
+	FONT-SIZE: 8pt;
+	COLOR: #000000
+}
+.speech {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-style: italic;
+	line-height: 1.25;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.12bold		{ FONT-WEIGHT: bold; line-height: 125%; FONT-SIZE: 12px; COLOR: #000066}.date {
+	font-family: arial;
+	FONT-WEIGHT: normal;
+	line-height: 150%;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;
+	text-align: right;
+}
+h1#title {
+	font-family: verdana;
+	text-align: left;
+	line-height: 125%;
+	font-size: 14pt;
+	color: #000000;
+	vertical-align: middle;
+	font-weight: Bold;
+	margin-right:12pt
+}
+.edirots {
+	font-family:arial;
+	text-align:left;
+	font-size:8.5pt;
+	color: #000000;
+	vertical-align:top;
+	line-height: 125%;
+	font-style: normal;
+	font-weight: normal;
+}
+hr#line {
+	line-height: 1px;
+	color: #000000;
+	text-decoration: none;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+a:visited.dir    {
+	font-family: arial,sans-serif;
+	color: #000000;
+	font-size: 8pt;
+	text-decoration:none;
+	text-align: left;
+}
+a:link.dir       {
+	font-family: arial,sans-serif;
+	color: #000000;
+	font-size: 8pt;
+	text-decoration:none;
+	text-align: left;
+}
+a:hover.dir      {
+	font-family: arial,sans-serif;
+	color: #000000;
+	font-size: 8pt;
+	text-decoration:underline;
+	text-align: left;
+}
+a:active.dir   	 {
+	font-family: arial,sans-serif;
+	color: #000000;
+	font-size: 8pt;
+	text-decoration:none;
+	text-align: left;
+}
+.edirots {
+	font-family:arial;
+	text-align:left;
+	font-size:8.5pt;
+	color: #000000;
+	vertical-align:top;
+	line-height: 125%;
+	font-style: normal;
+	font-weight: normal;
+}
+.directory {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	text-align: left;
+}
+.liltext_date {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: normal;
+	line-height: 150%;
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	text-align: right;
+}
+img#LHpic {
+	float: left;
+	margin-right: 10pt;
+	border: 1px solid #000000;
+	overflow: hidden;
+	visibility: visible;
+	width: auto;
+	margin-bottom: 10pt;
+	vertical-align: top;
+}
+img#RHpic {
+	float: right;
+	border: 1px solid #000000;
+	overflow: hidden;
+	visibility: visible;
+	width: auto;
+	margin-bottom: 10pt;
+	margin-left: 10pt;
+}
+.bigword	{font-family: verdana; text-align: left; line-height: 125%; font-size: 20pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bigword2	{font-family: verdana; text-align: left; line-height: 125%; font-size: 18pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bigword3	{font-family: verdana; text-align: left; line-height: 125%; font-size: 16pt; color: black; vertical-align: middle; font-weight: Bold}
+.bigword4	{font-family: verdana; text-align: left; line-height: 125%; font-size: 14pt; color:  #000000; vertical-align: middle; font-weight: Bold}
+.bigword5	{font-family: verdana; text-align: left; line-height: 125%; font-size: 12pt; color:  #000000; vertical-align: middle; font-weight: Bold}
+.bigword6	{font-family: verdana; text-align: left; line-height: 125%; font-size: 11pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bigword7	{font-family: verdana; text-align: left; line-height: 140%; font-size: 10pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bigword8	{font-family: verdana; text-align: left; line-height: 125%; font-size: 9pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bigword9	{font-family: verdana; text-align: left; line-height: 125%; font-size: 14pt; color: #000000; vertical-align: middle; font-weight: Bold}
+.bigword10	{font-family: verdana; text-align: left; line-height: 125%; font-size: 27pt; color: #000000; vertical-align: middle; font-weight: Bold
+}
+a:link.see_also {
+	font-family: Verdana;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;
+	text-decoration:none;
+	line-height: 1.5;
+}
+a:visited.see_also {
+	font-family: Verdana;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #ff0000;
+	text-decoration:none;
+	line-height: 1.5;
+}
+a:hover.see_also {
+	font-family: Verdana;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #0000ff;
+	text-decoration:underline;
+	line-height: 1.5;
+}
+a:active.see_also {
+	font-family: Verdana;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;
+	text-decoration:none;
+	line-height: 1.5;
+}
+.see_also_text {
+	font-family: Verdana;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 7pt;
+	COLOR: #000000;
+	text-decoration:none;
+	line-height: 1.5;
+}
+.directory_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #999999;
+	text-align: left;
+}
+
+.directory {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: black;
+	text-align: left;
+}
+a:visited.dir    {
+	font-family: arial,sans-serif;
+	color: #ff0000;
+	font-size: 8pt;
+	text-decoration:none;
+	text-align: left;
+}
+a:link.dir       {
+	font-family: arial,sans-serif;
+	color: #0000000;
+	font-size: 8pt;
+	text-decoration:none;
+	text-align: left;
+}
+a:hover.dir      {
+	font-family: arial,sans-serif;
+	color: #0000ff;
+	font-size: 8pt;
+	text-decoration:underline;
+	text-align: left;
+}
+a:active.dir   	 {
+	font-family: arial,sans-serif;
+	color: #000000;
+	font-size: 8pt;
+	text-decoration:none;
+	text-align: left;
+}
+.youarehere {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #444;
+	text-align: left;
+}
+.liltext_black_8pt	{ font-family: Verdana, Arial, Helvetica, sans-serif; FONT-WEIGHT: normal; line-height: 125%; FONT-SIZE: 8pt; COLOR: #000000}
+
+a:visited.newsbody_link {font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; 	text-align: left;
+	line-height: 135%;
+	font-size: 10pt;
+	FONT-WEIGHT: normal;
+	color: #00FF00;
+	vertical-align:top;
+	margin-top: -5px;
+	}
+a:hover.newsbody_link {font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; 	text-align: left;
+	line-height: 135%;
+	font-size: 10pt;
+	FONT-WEIGHT: normal;
+	color: #ff0000;
+	vertical-align:top;
+	margin-top: -5px;
+	}
+a:active.newsbody_link {font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; 	text-align: left;
+	line-height: 135%;
+	font-size: 10pt;
+	FONT-WEIGHT: normal;
+	color: #FF0000;
+	vertical-align:top;
+	margin-top: -5px;
+	}
+a:link.newsbody_link {font-family: Verdana,Arial,Helvetica,sans-serif,"MS sans serif"; 	text-align: left;
+	line-height: 135%;
+	font-size: 10pt;
+	FONT-WEIGHT: normal;
+	color: #FF0000;
+	vertical-align:top;
+	margin-top: -5px;
+	}
+	a:visited.liltext_link_Blue {
+	;
+	text-align:left;
+	font-style:normal;
+	font-size:8pt;
+	color: #FF0000;
+	vertical-align:top;
+	text-decoration:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif, "Gill Sans MT";
+}
+a:hover.liltext_link_Blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	;
+	text-align:left;
+	font-style: normal;
+	font-size:8pt;
+	color: #0000FF;
+	vertical-align:top;
+	text-decoration:underline
+}
+a:active.liltext_link_Blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	;
+	text-align:left;
+	font-style: normal;
+	font-size:8pt;
+	color: #0000FF;
+	vertical-align:top;
+	text-decoration:none
+} 
+a:link.liltext_link_Blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	;
+	text-align:left;
+	font-style: normal;
+	font-size:8pt;
+	color: #0000FF;
+	vertical-align:top;
+	text-decoration:none
+}
+}
+td#speech_R {
+	background-color: #FFFFFF;
+	background-image: url(/images/SPEECH_R.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	width: 20px;
+}
+td#speech_L {
+	background-color: #FFFFFF;
+	background-image: url(/images/SPEECH_L.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 20px;
+}
+.newsbody_quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "MS sans serif";
+	text-align: justify;
+	line-height: 145%;
+	font-size: 10pt;
+	FONT-WEIGHT: normal;
+	color: #000000;
+	vertical-align:top;
+	margin-right: 15px;
+	margin-left: 15px;
+	font-style: italic;
+}
+a:visited.lilblue{ font-family: Arial; line-height:125%; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000; text-decoration:none}
+a:hover.lilblue { font-family: Arial; line-height:125%; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000; text-decoration:none }
+a:active.lilblue { font-family: Arial; line-height:125%; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000 }
+a:link.lilblue	{ font-family: Arial; line-height:125%; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000; text-decoration:none}

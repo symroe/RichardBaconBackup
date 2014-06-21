@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /_baconweb/
+Disallow: /_Offline_pages/
